@@ -74,6 +74,9 @@ func GetConfig(name string) PathConfig {
 }
 
 var Configuration = map[string]PathConfig{
+	"aarch64-linux-gnu-as": Allowed,
+	"arm-linux-androidkernel-as": Allowed,
+	"arm-linux-androidkernel-ld": Allowed,
 	"bash":    Allowed,
 	"bison":   Allowed,
 	"brotli":  Allowed,
